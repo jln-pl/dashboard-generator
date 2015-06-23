@@ -1,6 +1,19 @@
 ### Dashboard Generator ###
 
-  Application which saves JSON data in mongoDB and displays them as charts.
+What for?
+
+I was generating JSON reports, with my web page statistics, during each deploy. I thought it will be a good idea to store them in some database and display historical data as charts.
+
+Application has 3 routes:
+- GET / - for displaying a dashboard,
+- GET /get-data - for getting charts data,
+- POST /update-metrics - for sending new metrics which should be saved in a database.
+
+Database: MongoDB
+Backend: NodeJS
+Frontend: ChartJS and Vanilla JS with some ES6 features
+
+Application is still in progress.
 
 ## Table of Contents ##
   
