@@ -12,7 +12,6 @@
 ## 1. Example config file ##
 
 ```
-#!javascript
 var Config = {
       mongo: {
         host: "localhost",
@@ -48,7 +47,6 @@ exports.config = Config;
 ## 3. Example of sending data with curl ##
 
 ```
-#!javascript
 {
   "someRootName": {
     "someNode": 22,
@@ -59,7 +57,6 @@ exports.config = Config;
 
 
 ```
-#!shell
 curl -H "Content-Type: application/json" http://localhost:3000/update-metrics --data-binary "@example.json"
 ```
 
