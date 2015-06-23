@@ -1,0 +1,21 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: #000;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+}
+
+.chart-wrapper {
+  display: inline-block;
+}
+
+.chart-wrapper p {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+}

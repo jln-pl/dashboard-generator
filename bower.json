@@ -1,0 +1,11 @@
+{
+  "name": "dashboard-generator",
+  "version": "0.0.0",
+  "authors": [
+    "jj"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "chartjs": "~1.0.0"
+  }
+}
